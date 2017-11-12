@@ -1,0 +1,1424 @@
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_3b4a9" "-configuration" "Debug"
+2017-11-12 15:18:03.001 xcodebuild[1851:26940] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:03.001 xcodebuild[1851:26940] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_3b4a9 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/Objects-normal/x86_64/cmTC_3b4a9.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_NOINLINE -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:1: error: unknown type name '__declspec'
+__declspec(noinline) void foo() { }
+^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:21: error: expected ';' after top level declarator
+__declspec(noinline) void foo() { }
+                    ^
+                    ;
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_3b4a9.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_af6ec" "-configuration" "Debug"
+2017-11-12 15:18:04.830 xcodebuild[1880:27070] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:04.830 xcodebuild[1880:27070] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_af6ec OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/Objects-normal/x86_64/cmTC_af6ec.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE__ALIGNED_MALLOC -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_af6ec.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+Performing C++ SOURCE FILE Test HAVE_MEMALIGN failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_06dc3" "-configuration" "Debug"
+2017-11-12 15:18:06.692 xcodebuild[1909:27289] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:06.692 xcodebuild[1909:27289] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_06dc3 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/Objects-normal/x86_64/cmTC_06dc3.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE_MEMALIGN -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_06dc3.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+#include <malloc.h>
+int main() {
+    void *ptr = memalign(32, 1024);
+} 
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ff07a" "-configuration" "Debug"
+2017-11-12 15:18:08.489 xcodebuild[1938:27405] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:08.489 xcodebuild[1938:27405] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_ff07a OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/Objects-normal/x86_64/cmTC_ff07a.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_THREAD -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:1: error: unknown type name '__declspec'
+__declspec(thread) int x; int main() { }
+^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:19: error: expected ';' after top level declarator
+__declspec(thread) int x; int main() { }
+                  ^
+                  ;
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ff07a.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+Determining if the include file syscall.h exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d80b5" "-configuration" "Debug"
+2017-11-12 15:18:28.816 xcodebuild[2228:28708] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:28.817 xcodebuild[2228:28708] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_d80b5 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/Objects-normal/x86_64/cmTC_d80b5.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'syscall.h' file not found
+#include <syscall.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d80b5.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file ucontext.h exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_4b762" "-configuration" "Debug"
+2017-11-12 15:18:30.578 xcodebuild[2257:28825] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:30.578 xcodebuild[2257:28825] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_4b762 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/Objects-normal/x86_64/cmTC_4b762.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/Objects-normal/x86_64/CheckIncludeFile.o
+In file included from /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/ucontext.h:43:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_4b762.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file ext/slist exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ca071" "-configuration" "Debug"
+2017-11-12 15:18:35.337 xcodebuild[2318:29062] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:35.337 xcodebuild[2318:29062] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_ca071 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/Objects-normal/x86_64/cmTC_ca071.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
+#include <ext/slist>
+         ^~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ca071.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file tr1/unordered_map exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_48a2e" "-configuration" "Debug"
+2017-11-12 15:18:36.461 xcodebuild[2332:29118] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:36.461 xcodebuild[2332:29118] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_48a2e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/Objects-normal/x86_64/cmTC_48a2e.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
+#include <tr1/unordered_map>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_48a2e.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file tr1/unordered_set exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_eff41" "-configuration" "Debug"
+2017-11-12 15:18:37.324 xcodebuild[2346:29171] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:37.325 xcodebuild[2346:29171] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_eff41 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/Objects-normal/x86_64/cmTC_eff41.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
+#include <tr1/unordered_set>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_eff41.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e0037" "-configuration" "Debug"
+2017-11-12 15:18:41.366 xcodebuild[2405:29408] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:41.366 xcodebuild[2405:29408] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_e0037 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/Objects-normal/x86_64/cmTC_e0037.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/Objects-normal/x86_64/HAVE___UINT16.o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/Objects-normal/x86_64/HAVE___UINT16.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/Objects-normal/x86_64/HAVE___UINT16.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/Objects-normal/x86_64/HAVE___UINT16.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:19:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:19:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:20:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:20:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:21:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:21:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:22:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:22:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:17:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_e0037.build/Objects-normal/x86_64/HAVE___UINT16.o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_84454" "-configuration" "Debug"
+2017-11-12 15:18:52.333 xcodebuild[2584:30127] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:52.334 xcodebuild[2584:30127] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_84454 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/cmTC_84454.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/3.4.3/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=get_static_proc_name -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/3.4.3/share/cmake/Modules/CheckFunctionExists.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTC_84454 normal x86_64
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -filelist /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/cmTC_84454.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/cmTC_84454_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lunwind -Xlinker -dependency_info -Xlinker /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_84454.build/Objects-normal/x86_64/cmTC_84454_dependency_info.dat -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/cmTC_84454
+ld: library not found for -lunwind
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTC_84454 normal x86_64
+(1 failure)
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_e7093" "-configuration" "Debug"
+2017-11-12 15:18:58.769 xcodebuild[2691:30551] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:58.770 xcodebuild[2691:30551] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_e7093 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/Objects-normal/x86_64/cmTC_e7093.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -DHAVE___DECLSPEC -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:27: error: parameter named 'a' is missing
+__declspec(selectany) int a;
+                          ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:5: error: parameter named 'main' is missing
+int main(void) { return 0; }
+    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:15: error: expected ';' at end of declaration
+int main(void) { return 0; }
+              ^
+              ;
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__declspec(selectany) int a;
+^
+1 warning and 3 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_e7093.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d4df7" "-configuration" "Debug"
+2017-11-12 15:18:59.638 xcodebuild[2705:30604] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-11-12 15:18:59.638 xcodebuild[2705:30604] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_d4df7 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/Objects-normal/x86_64/cmTC_d4df7.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DSTL_NO_NAMESPACE -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+In file included from /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector:450:28: note: 'std::vector' declared here
+class _LIBCPP_TEMPLATE_VIS vector
+                           ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d4df7.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be54f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_be54f.dir/build.make CMakeFiles/cmTC_be54f.dir/build
+Building CXX object CMakeFiles/cmTC_be54f.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_NOINLINE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_be54f.dir/src.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:1: error: unknown type name '__declspec'
+__declspec(noinline) void foo() { }
+^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:21: error: expected ';' after top level declarator
+__declspec(noinline) void foo() { }
+                    ^
+                    ;
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_be54f.dir/src.cxx.o] Error 1
+make: *** [cmTC_be54f/fast] Error 2
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6b046/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6b046.dir/build.make CMakeFiles/cmTC_6b046.dir/build
+Building CXX object CMakeFiles/cmTC_6b046.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE__ALIGNED_MALLOC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_6b046.dir/src.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_6b046.dir/src.cxx.o] Error 1
+make: *** [cmTC_6b046/fast] Error 2
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+Performing C++ SOURCE FILE Test HAVE_MEMALIGN failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7482c/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_7482c.dir/build.make CMakeFiles/cmTC_7482c.dir/build
+Building CXX object CMakeFiles/cmTC_7482c.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_MEMALIGN -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_7482c.dir/src.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_7482c.dir/src.cxx.o] Error 1
+make: *** [cmTC_7482c/fast] Error 2
+
+Source file was:
+
+#include <malloc.h>
+int main() {
+    void *ptr = memalign(32, 1024);
+} 
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8763a/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8763a.dir/build.make CMakeFiles/cmTC_8763a.dir/build
+Building CXX object CMakeFiles/cmTC_8763a.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_THREAD -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_8763a.dir/src.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:1: error: unknown type name '__declspec'
+__declspec(thread) int x; int main() { }
+^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:19: error: expected ';' after top level declarator
+__declspec(thread) int x; int main() { }
+                  ^
+                  ;
+2 errors generated.
+make[1]: *** [CMakeFiles/cmTC_8763a.dir/src.cxx.o] Error 1
+make: *** [cmTC_8763a/fast] Error 2
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+Determining if the include file syscall.h exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f9bd/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8f9bd.dir/build.make CMakeFiles/cmTC_8f9bd.dir/build
+Building C object CMakeFiles/cmTC_8f9bd.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_8f9bd.dir/CheckIncludeFile.c.o   -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'syscall.h' file not found
+#include <syscall.h>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_8f9bd.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_8f9bd/fast] Error 2
+
+
+Determining if the include file ucontext.h exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f7e85/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f7e85.dir/build.make CMakeFiles/cmTC_f7e85.dir/build
+Building C object CMakeFiles/cmTC_f7e85.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f7e85.dir/CheckIncludeFile.c.o   -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/ucontext.h:43:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_f7e85.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTC_f7e85/fast] Error 2
+
+
+Determining if the include file ext/slist exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3a20e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_3a20e.dir/build.make CMakeFiles/cmTC_3a20e.dir/build
+Building CXX object CMakeFiles/cmTC_3a20e.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_3a20e.dir/CheckIncludeFile.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
+#include <ext/slist>
+         ^~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_3a20e.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_3a20e/fast] Error 2
+
+
+Determining if the include file tr1/unordered_map exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93065/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_93065.dir/build.make CMakeFiles/cmTC_93065.dir/build
+Building CXX object CMakeFiles/cmTC_93065.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_93065.dir/CheckIncludeFile.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
+#include <tr1/unordered_map>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_93065.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_93065/fast] Error 2
+
+
+Determining if the include file tr1/unordered_set exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfa8e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bfa8e.dir/build.make CMakeFiles/cmTC_bfa8e.dir/build
+Building CXX object CMakeFiles/cmTC_bfa8e.dir/CheckIncludeFile.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_bfa8e.dir/CheckIncludeFile.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
+#include <tr1/unordered_set>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_bfa8e.dir/CheckIncludeFile.cxx.o] Error 1
+make: *** [cmTC_bfa8e/fast] Error 2
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_93495/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_93495.dir/build.make CMakeFiles/cmTC_93495.dir/build
+Building C object CMakeFiles/cmTC_93495.dir/HAVE___UINT16.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_93495.dir/HAVE___UINT16.c.o   -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+make[1]: *** [CMakeFiles/cmTC_93495.dir/HAVE___UINT16.c.o] Error 1
+make: *** [cmTC_93495/fast] Error 2
+
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3503/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f3503.dir/build.make CMakeFiles/cmTC_f3503.dir/build
+Building C object CMakeFiles/cmTC_f3503.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=get_static_proc_name -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_f3503.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f3503
+/usr/local/Cellar/cmake/3.10.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3503.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=get_static_proc_name -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_f3503.dir/CheckFunctionExists.c.o  -o cmTC_f3503 -lunwind 
+ld: library not found for -lunwind
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[1]: *** [cmTC_f3503] Error 1
+make: *** [cmTC_f3503/fast] Error 2
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_89b85/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_89b85.dir/build.make CMakeFiles/cmTC_89b85.dir/build
+Building C object CMakeFiles/cmTC_89b85.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -DHAVE___DECLSPEC -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_89b85.dir/src.c.o   -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:27: error: parameter named 'a' is missing
+__declspec(selectany) int a;
+                          ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:5: error: parameter named 'main' is missing
+int main(void) { return 0; }
+    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:15: error: expected ';' at end of declaration
+int main(void) { return 0; }
+              ^
+              ;
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__declspec(selectany) int a;
+^
+1 warning and 3 errors generated.
+make[1]: *** [CMakeFiles/cmTC_89b85.dir/src.c.o] Error 1
+make: *** [cmTC_89b85/fast] Error 2
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_37c14/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_37c14.dir/build.make CMakeFiles/cmTC_37c14.dir/build
+Building CXX object CMakeFiles/cmTC_37c14.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++    -std=c++11 -Wno-deprecated-register -DSTL_NO_NAMESPACE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk   -o CMakeFiles/cmTC_37c14.dir/src.cxx.o -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector:450:28: note: 'std::vector' declared here
+class _LIBCPP_TEMPLATE_VIS vector
+                           ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_37c14.dir/src.cxx.o] Error 1
+make: *** [cmTC_37c14/fast] Error 2
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_NOINLINE failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_1426e" "-configuration" "Debug"
+2017-12-03 22:35:33.109 xcodebuild[12269:148762] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:35:33.110 xcodebuild[12269:148762] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_1426e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/Objects-normal/x86_64/cmTC_1426e.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_NOINLINE -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:1: error: unknown type name '__declspec'
+__declspec(noinline) void foo() { }
+^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:1:21: error: expected ';' after top level declarator
+__declspec(noinline) void foo() { }
+                    ^
+                    ;
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1426e.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+__declspec(noinline) void foo() { }
+int main() { }
+Performing C++ SOURCE FILE Test HAVE__ALIGNED_MALLOC failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_2f614" "-configuration" "Debug"
+2017-12-03 22:35:34.929 xcodebuild[12299:148924] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:35:34.930 xcodebuild[12299:148924] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_2f614 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/Objects-normal/x86_64/cmTC_2f614.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE__ALIGNED_MALLOC -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_2f614.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+#include <malloc.h>
+int main() { void * ptr = _aligned_malloc(1024, 32); }
+
+Performing C++ SOURCE FILE Test HAVE_MEMALIGN failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_f48a6" "-configuration" "Debug"
+2017-12-03 22:35:36.804 xcodebuild[12328:149038] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:35:36.804 xcodebuild[12328:149038] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_f48a6 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/Objects-normal/x86_64/cmTC_f48a6.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE_MEMALIGN -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_f48a6.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+#include <malloc.h>
+int main() {
+    void *ptr = memalign(32, 1024);
+} 
+Performing C++ SOURCE FILE Test HAVE_DECLSPEC_THREAD failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_52bd0" "-configuration" "Debug"
+2017-12-03 22:35:38.657 xcodebuild[12357:149164] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:35:38.657 xcodebuild[12357:149164] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_52bd0 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/Objects-normal/x86_64/cmTC_52bd0.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DHAVE_DECLSPEC_THREAD -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:1: error: unknown type name '__declspec'
+__declspec(thread) int x; int main() { }
+^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:19: error: expected ';' after top level declarator
+__declspec(thread) int x; int main() { }
+                  ^
+                  ;
+2 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_52bd0.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+__declspec(thread) int x; int main() { }
+
+Determining if the include file syscall.h exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_ac07e" "-configuration" "Debug"
+2017-12-03 22:36:11.168 xcodebuild[12822:150919] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:11.169 xcodebuild[12822:150919] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_ac07e OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/Objects-normal/x86_64/cmTC_ac07e.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'syscall.h' file not found
+#include <syscall.h>
+         ^~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_ac07e.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file ucontext.h exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_b796c" "-configuration" "Debug"
+2017-12-03 22:36:14.934 xcodebuild[12884:151092] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:14.934 xcodebuild[12884:151092] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_b796c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/Objects-normal/x86_64/cmTC_b796c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/Objects-normal/x86_64/CheckIncludeFile.o
+In file included from /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/include/ucontext.h:43:2: error: The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+#error The deprecated ucontext routines require _XOPEN_SOURCE to be defined
+ ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_b796c.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file ext/slist exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_7a4af" "-configuration" "Debug"
+2017-12-03 22:36:19.875 xcodebuild[12957:151353] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:19.875 xcodebuild[12957:151353] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_7a4af OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/Objects-normal/x86_64/cmTC_7a4af.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'ext/slist' file not found
+#include <ext/slist>
+         ^~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_7a4af.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file tr1/unordered_map exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_66b4c" "-configuration" "Debug"
+2017-12-03 22:36:20.773 xcodebuild[12971:151408] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:20.773 xcodebuild[12971:151408] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_66b4c OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/Objects-normal/x86_64/cmTC_66b4c.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_map' file not found
+#include <tr1/unordered_map>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_66b4c.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining if the include file tr1/unordered_set exists failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_0a941" "-configuration" "Debug"
+2017-12-03 22:36:21.818 xcodebuild[12985:151464] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:21.819 xcodebuild[12985:151464] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_0a941 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/Objects-normal/x86_64/cmTC_0a941.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/Objects-normal/x86_64/CheckIncludeFile.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/Objects-normal/x86_64/CheckIncludeFile.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/Objects-normal/x86_64/CheckIncludeFile.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:10: fatal error: 'tr1/unordered_set' file not found
+#include <tr1/unordered_set>
+         ^~~~~~~~~~~~~~~~~~~
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_0a941.build/Objects-normal/x86_64/CheckIncludeFile.o CheckIncludeFile.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+
+Determining size of unsigned __int16 failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_18e49" "-configuration" "Debug"
+2017-12-03 22:36:26.341 xcodebuild[13045:151733] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:26.341 xcodebuild[13045:151733] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_18e49 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/Objects-normal/x86_64/cmTC_18e49.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/Objects-normal/x86_64/HAVE___UINT16.o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/Objects-normal/x86_64/HAVE___UINT16.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/Objects-normal/x86_64/HAVE___UINT16.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/Objects-normal/x86_64/HAVE___UINT16.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: error: expected ')'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:25:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: error: expected ')'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:26:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: error: expected ')'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:27:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: error: expected ')'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:28:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: error: expected ')'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:31: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                              ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:29:12: note: to match this '('
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:23:21: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(unsigned __int16))
+                    ^
+5 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_18e49.build/Objects-normal/x86_64/HAVE___UINT16.o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CheckTypeSize/HAVE___UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(unsigned __int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function get_static_proc_name exists in the unwind failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_d2e38" "-configuration" "Debug"
+2017-12-03 22:36:37.587 xcodebuild[13225:152572] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:37.588 xcodebuild[13225:152572] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_d2e38 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/cmTC_d2e38.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/CheckFunctionExists.o /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -DCHECK_FUNCTION_EXISTS=get_static_proc_name -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/CheckFunctionExists.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/CheckFunctionExists.dia -c /usr/local/Cellar/cmake/3.10.0/share/cmake/Modules/CheckFunctionExists.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/CheckFunctionExists.o
+
+Ld Debug/cmTC_d2e38 normal x86_64
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export MACOSX_DEPLOYMENT_TARGET=10.13
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -L/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -filelist /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/cmTC_d2e38.LinkFileList -mmacosx-version-min=10.13 -Xlinker -object_path_lto -Xlinker /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/cmTC_d2e38_lto.o -Xlinker -no_deduplicate -Wl,-search_paths_first -Wl,-headerpad_max_install_names -lunwind -Xlinker -dependency_info -Xlinker /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_d2e38.build/Objects-normal/x86_64/cmTC_d2e38_dependency_info.dat -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/cmTC_d2e38
+ld: library not found for -lunwind
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	Ld Debug/cmTC_d2e38 normal x86_64
+(1 failure)
+
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_1fe6f" "-configuration" "Debug"
+2017-12-03 22:36:44.137 xcodebuild[13333:153050] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:44.137 xcodebuild[13333:153050] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_1fe6f OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/Objects-normal/x86_64/cmTC_1fe6f.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -DHAVE___DECLSPEC -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:27: error: parameter named 'a' is missing
+__declspec(selectany) int a;
+                          ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:5: error: parameter named 'main' is missing
+int main(void) { return 0; }
+    ^
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:3:15: error: expected ';' at end of declaration
+int main(void) { return 0; }
+              ^
+              ;
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.c:2:1: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+__declspec(selectany) int a;
+^
+1 warning and 3 errors generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_1fe6f.build/Objects-normal/x86_64/src.o src.c normal x86_64 c com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+__declspec(selectany) int a;
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test STL_NO_NAMESPACE failed with the following output:
+Change Dir: /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/xcodebuild" "-project" "CMAKE_TRY_COMPILE.xcodeproj" "build" "-target" "cmTC_c8b64" "-configuration" "Debug"
+2017-12-03 22:36:45.002 xcodebuild[13347:153106] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/VVDocumenter-Xcode.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+2017-12-03 22:36:45.002 xcodebuild[13347:153106] [MT] PluginLoading: Required plug-in compatibility UUID C3998872-68CC-42C2-847C-B44D96AB2691 for plug-in at path '~/Library/Application Support/Developer/Shared/Xcode/Plug-ins/Alcatraz.xcplugin' not present in DVTPlugInCompatibilityUUIDs
+=== BUILD TARGET cmTC_c8b64 OF PROJECT CMAKE_TRY_COMPILE WITH CONFIGURATION Debug ===
+
+Check dependencies
+
+Write auxiliary files
+/bin/mkdir -p /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/Objects-normal/x86_64
+write-file /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/Objects-normal/x86_64/cmTC_c8b64.LinkFileList
+
+CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+    cd /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp
+    export LANG=en_US.US-ASCII
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-float-conversion -Wno-non-literal-null-conversion -Wno-objc-literal-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -DCMAKE_INTDIR=\"Debug\" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.13 -g -Wno-sign-conversion -Wno-infinite-recursion -Wno-move -Wno-comma -Wno-block-capture-autoreleasing -Wno-strict-prototypes -Wno-range-loop-analysis -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug/include -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/DerivedSources/x86_64 -I/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/DerivedSources -Wmost -Wno-four-char-constants -Wno-unknown-pragmas -F/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/Debug -std=c++11 -Wno-deprecated-register -DSTL_NO_NAMESPACE -MMD -MT dependencies -MF /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/Objects-normal/x86_64/src.d --serialize-diagnostics /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/Objects-normal/x86_64/src.dia -c /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx -o /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/Objects-normal/x86_64/src.o
+/Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:3:1: error: no template named 'vector'; did you mean 'std::vector'?
+vector<int> t; int main() { }
+^~~~~~
+std::vector
+In file included from /Users/sidharth/Code/pbrt-v3/CMakeFiles/CMakeTmp/src.cxx:2:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1/vector:450:28: note: 'std::vector' declared here
+class _LIBCPP_TEMPLATE_VIS vector
+                           ^
+1 error generated.
+
+** BUILD FAILED **
+
+
+The following build commands failed:
+	CompileC CMAKE_TRY_COMPILE.build/Debug/cmTC_c8b64.build/Objects-normal/x86_64/src.o src.cxx normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+(1 failure)
+
+Source file was:
+
+#include <vector>
+vector<int> t; int main() { }
+

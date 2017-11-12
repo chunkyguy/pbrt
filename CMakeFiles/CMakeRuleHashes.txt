@@ -1,0 +1,6 @@
+# Hashes of file build rules.
+65a60fe710c65c1d3e27a0634a32b565 pbrtlex.cpp
+c8a5b62728ac95fde2f86c28e538ff56 pbrtparse.cpp
+a7b1e18cd780c1a53866a5a53b145318 src/ext/openexr/IlmBase/Half/toFloat.h
+7f031a753ef4c9d860a3fc6e2af23e77 src/ext/openexr/OpenEXR/IlmImf/b44ExpLogTable.h
+e29f34181256bff31a599e8a2cbdd580 src/ext/openexr/OpenEXR/IlmImf/dwaLookups.h
